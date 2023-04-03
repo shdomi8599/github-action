@@ -8,6 +8,7 @@ function App() {
   useEffect(() => {
     getDiscussion();
     console.log('hi')
+    console.log('hi')
   }, []);
 
   const getDiscussion = () => {
