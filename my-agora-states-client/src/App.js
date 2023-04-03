@@ -9,6 +9,7 @@ function App() {
     getDiscussion();
     console.log('hi')
     console.log('hi')
+    console.log('hi')
   }, []);
 
   const getDiscussion = () => {
