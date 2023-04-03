@@ -11,6 +11,7 @@ function App() {
     console.log('hi')
     console.log('hi')
     console.log('hi')
+    console.log('hi')
   }, []);
 
   const getDiscussion = () => {
