@@ -7,6 +7,7 @@ function App() {
 
   useEffect(() => {
     getDiscussion();
+    console.log('hi')
   }, []);
 
   const getDiscussion = () => {
