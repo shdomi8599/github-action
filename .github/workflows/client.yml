@@ -15,9 +15,6 @@ jobs:
       - name: Build
         run: npm run build # 변경 가능한 부분입니다. 프로젝트에 맞게 빌드 명령어를 지정해야 합니다.
         working-directory: ./my-agora-states-client
-        id: get_build_dir
-        run: |
-          echo "::set-output name=directory::$(realpath ./my-agora-states-client/build)"
       - name: SHOW AWS CLI VERSION
         run: |
           aws --version
