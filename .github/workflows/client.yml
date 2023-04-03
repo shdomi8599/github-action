@@ -20,8 +20,11 @@ jobs:
           aws --version
       - name: Sync Bucket
         env:
+<<<<<<< HEAD
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+=======
+>>>>>>> 1b9b0c9991cd752dd856deef8b02a95e97c0bfe5
           AWS_EC2_METADATA_DISABLED: true
         run: |
           aws s3 sync \
